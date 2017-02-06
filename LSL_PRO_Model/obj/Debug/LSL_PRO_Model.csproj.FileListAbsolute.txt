@@ -1,0 +1,5 @@
+E:\lsl_Work\LSL_PRO\LSL_PRO_Model\bin\Debug\LSL_PRO_Model.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_Model\bin\Debug\LSL_PRO_Model.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_Model\obj\Debug\LSL_PRO_Model.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_Model\obj\Debug\LSL_PRO_Model.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_Model\obj\Debug\LSL_PRO_Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\LSL_PRO_IBLL.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\LSL_PRO_IBLL.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\LSL_PRO.Kernel.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\LSL_PRO.Utilities.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\LSL_PRO_Model.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\LSL_PRO.Kernel.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\LSL_PRO.Utilities.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\LSL_PRO_Model.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\obj\Debug\LSL_PRO_IBLL.csprojResolveAssemblyReference.cache
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\obj\Debug\LSL_PRO_IBLL.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\obj\Debug\LSL_PRO_IBLL.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\MySql.Data.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IBLL\bin\Debug\Microsoft.Practices.Unity.dll

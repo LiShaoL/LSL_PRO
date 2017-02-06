@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2126636-85B0-4DCD-9097-D3FED60F0CCA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LSL_PRO_IBLL</RootNamespace>
+    <AssemblyName>LSL_PRO_IBLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonIBLL.cs" />
+    <Compile Include="IndexIBLL.cs" />
+    <Compile Include="LoginIBLL.cs" />
+    <Compile Include="MenuIBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterIBLL.cs" />
+    <Compile Include="RoleIBLL.cs" />
+    <Compile Include="RolesPermissionIBLL.cs" />
+    <Compile Include="UserIBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LSL_PRO.Kernel\LSL_PRO.Kernel.csproj">
+      <Project>{4c320eae-aaed-40e1-8e97-5b178bb87280}</Project>
+      <Name>LSL_PRO.Kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSL_PRO.Utilities\LSL_PRO.Utilities.csproj">
+      <Project>{8f374a38-d754-445f-86ac-fab25ddac3e9}</Project>
+      <Name>LSL_PRO.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSL_PRO_Model\LSL_PRO_Model.csproj">
+      <Project>{6978d0bd-7162-4e67-baee-faff7fd36e83}</Project>
+      <Name>LSL_PRO_Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

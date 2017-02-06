@@ -1,0 +1,13 @@
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\LSL_PRO_IDAL.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\LSL_PRO_IDAL.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\LSL_PRO_Model.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\LSL_PRO_Model.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\obj\Debug\LSL_PRO_IDAL.csprojResolveAssemblyReference.cache
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\obj\Debug\LSL_PRO_IDAL.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\obj\Debug\LSL_PRO_IDAL.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\LSL_PRO.Kernel.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\MySql.Data.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\Microsoft.Practices.Unity.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO_IDAL\bin\Debug\LSL_PRO.Kernel.pdb
