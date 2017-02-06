@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <title>注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="~/Assets/ico/favicon.ico" type="image/x-icon" />
+    <link href="~/Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link href="~/Assets/css/add-ons.min.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/flavr/animate.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/layer/skin/default/layer.css" rel="stylesheet" />
+    <link href="~/Assets/css/register.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid content">
+        <div class="row">
+            <div class="body-register">
+                <div class="center-register">
+                    <a href="#" class="logo pull-left hidden-xs">
+                        <img src="~/Assets/img/lsl2.png" height="45" alt="LSL_PRO" />
+                    </a>
+
+                    <div class="panel panel-register">
+                        <div class="panel-title-register text-right">
+                            <h2 class="title text-uppercase"><i class="fa fa-user"></i>注册</h2>
+                        </div>
+                        <div class="panel-body">
+                            <form id="form_register">
+                                <div class="form-group">
+                                    <label>邮箱/电话</label>
+                                    <input id="name" name="name" type="text" class="form-control" placeholder="请输入邮箱或电话" />
+                                    <span id="un" ></span>                            
+                                </div>
+                                <div class="form-group">
+                                    <label>密码</label>
+                                    <input id="pwd" name="pwd" type="password" class="form-control" placeholder="请输入6-16位密码" />
+                                    <span id="mm"></span>
+                                    <div id="qd" class="pw-strength">
+                                        <div class="pw-bar">
+                                        </div>
+                                        <div class="pw-bar-on">
+                                        </div>                                                                          
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>确认密码</label>
+                                    <input id="pwd_confirm" name="pwd_confirm" type="password" class="form-control" placeholder="请再次输入密码" />
+                                    <span id="qrmm"></span>                                
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <div class="checkbox-custom checkbox-default">
+                                            <input id="AgreeTerms" name="agreeterms" type="checkbox" />
+                                            <label for="AgreeTerms">我同意<a href="#"><small onclick="LSL_register.Notice()">注意事项</small></a></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 text-right">
+                                        <button type="button" class="btn btn-primary hidden-xs bk-margin-top-10" id="regi" onclick="LSL_register.Register();">注册</button>                                  
+                                    </div>
+                                </div>
+
+                                <div class="text-with-hr">
+                                    <span>第三方登录</span>
+                                </div>
+                                <br />
+                                <div class="bk-margin-bottom-10 bk-margin-top-10 text-center">
+                                    <a href="http://weibo.com/" class="fa fa-weibo facebook-bg"></a>
+                                    <a href="https://github.com/" class="fa fa-github twitter-bg"></a>
+                                    <a href="https://www.facebook.com/" class="fa fa-facebook facebook-bg"></a>
+                                </div><br />
+                                <p class="text-center">已经有账号？<a href="/Login/Login"><small>登录</small></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Assets/vendor/js/jquery-2.1.1.min.js"></script>
+    <script src="~/Assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Assets/plugins/layer/layer.js"></script>
+    <script src="~/Assets/js/CommonJs.js"></script>
+    <script src="~/Assets/js/pages/register.js"></script>
+</body>
+</html>

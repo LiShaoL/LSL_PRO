@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>LSL_PRO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="shortcut icon" href="~/Assets/ico/favicon.ico" type="image/x-icon" />
+    <link href="~/Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/jquery-ui/css/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link href="~/Assets/css/add-ons.min.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/bootstrap-tab/css/bootstrap.addtabs.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/seder-menu/sidebar-menu.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="navbar" role="navigation">
+        <div class="container-fluid container-nav">
+            <div class="navbar-left">
+                <form class="search navbar-form">
+                    <div class="input-group input-search">
+                        <input type="text" class="form-control" name="q" id="q" placeholder="请输入关键字">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="navbar-right">
+                <ul class="notifications hidden-sm hidden-xs">
+                    <li>
+                        <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+                            <i class="fa fa-tasks"></i>
+                            <span class="badge">10</span>
+                        </a>
+                        <ul class="dropdown-menu update-menu" role="menu">
+                            <li><div class="divider2 "></div></li>
+                            <li><a href="#"><i class="fa fa-database bk-fg-primary"></i> 一 </a></li>
+                            <li><a href="#"><i class="fa fa-bar-chart-o bk-fg-primary"></i> 二 </a></li>
+                            <li><a href="#"><i class="fa fa-bell bk-fg-primary"></i> 三 </a></li>
+                            <li><a href="#"><i class="fa fa-envelope bk-fg-primary"></i> 四 </a></li>
+                            <li><a href="#"><i class="fa fa-flash bk-fg-primary"></i> 五 </a></li>
+                            <li><a href="#"><i class="fa fa-credit-card bk-fg-primary"></i> 六 </a></li>
+                            <li><a href="#"><i class="fa fa-dollar bk-fg-primary"></i> 七 </a></li>
+                            <li><a href="#"><i class="fa fa-thumbs-o-up bk-fg-primary"></i> 八 </a></li>
+                            <li><a href="#"><i class="fa fa-folder bk-fg-primary"></i> 九 </a></li>
+                            <li><a href="#"><i class="fa fa-users bk-fg-primary"></i> 十 </a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+                            <i class="fa fa-envelope"></i>
+                            <span class="badge">5</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="divider2 "></div>
+                            </li>
+                            <li class="avatar">
+                                <a href="page-inbox.html">
+                                    <img class="avatar" src="~/Assets/img/avatar1.jpg" alt="" />
+                                    <div><div class="point point-primary point-lg"></div>第一个</div>
+                                    <span><small>1 minute ago</small></span>
+                                </a>
+                            </li>
+                            <li class="avatar">
+                                <a href="page-inbox.html">
+                                    <img class="avatar" src="~/Assets/img/avatar1.jpg" alt="" />
+                                    <div><div class="point point-primary point-lg"></div>第一个</div>
+                                    <span><small>3 minute ago</small></span>
+                                </a>
+                            </li>
+                            <li class="avatar">
+                                <a href="page-inbox.html">
+                                    <img class="avatar" src="~/Assets/img/avatar1.jpg" alt="" />
+                                    <div><div class="point point-primary point-lg"></div>第一个</div>
+                                    <span><small>4 minute ago</small></span>
+                                </a>
+                            </li>
+                            <li class="avatar">
+                                <a href="page-inbox.html">
+                                    <img class="avatar" src="~/Assets/img/avatar1.jpg" alt="" />
+                                    <div><div class="point point-primary point-lg"></div>第一个</div>
+                                    <span><small>30 minute ago</small></span>
+                                </a>
+                            </li>
+                            <li class="avatar">
+                                <a href="page-inbox.html">
+                                    <img class="avatar" src="~/Assets/img/avatar1.jpg" alt="" />
+                                    <div><div class="point point-primary point-lg"></div>第一个</div>
+                                    <span><small>1 hours ago</small></span>
+                                </a>
+                            </li>
+                            <li class="dropdown-menu-footer text-center">
+                                <a href="page-inbox.html">显示所有邮件</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+                            <i class="fa fa-bell"></i>
+                            <span class="badge">3</span>
+                        </a>
+                        <ul class="dropdown-menu list-group">
+                            <li>
+                                <div class="divider2 "></div>
+                            </li>
+                            <li class="list-item">
+                                <a href="page-inbox.html">
+                                    <div class="pull-left">
+                                        <i class="fa fa-envelope-o bk-fg-primary"></i>
+                                    </div>
+                                    <div class="media-body clearfix">
+                                        <div>第一</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">
+                                    <div class="pull-left">
+                                        <i class="fa fa-cogs bk-fg-primary"></i>
+                                    </div>
+                                    <div class="media-body clearfix">
+                                        <div>第一</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">
+                                    <div class="pull-left">
+                                        <i class="fa fa-fire bk-fg-primary"></i>
+                                    </div>
+                                    <div class="media-body clearfix">
+                                        <div>第一</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="userbox">
+                    <a href="#" class="dropdown-toggle " data-toggle="dropdown">
+                        <div class="profile-info">
+                            <span class="role">李韶亮</span>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="divider2 "></div>
+                            </li>
+                            <li>
+                                <a href="page-profile.html"><i class="fa fa-user"></i> 第一</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-wrench"></i> 第二</a>
+                            </li>
+                            <li>
+                                <a href="page-invoice"><i class="fa fa-usd"></i> 第三</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-file"></i> 第四</a>
+                            </li>
+                            <li>
+                                <a href="page-login.html"><i class="fa fa-power-off"></i> 第五</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid content">
+        <div class="row">
+            <div class="sidebar">
+                <div class="sidebar-collapse">
+                    <div class="sidebar-header">
+                        <img src="~/Assets/img/lsl.png" class="img-responsive" alt="" />
+                    </div>
+                    <div>
+                        <nav id="menu" class="nav-main" role="navigation">
+                            <ul class="sidebar-menu">
+                                <div class="panel-body">
+                                    <div class="bk-avatar">
+                                        <img src="~/Assets/img/hsq.jpg" style="margin-left: 42px;" class="img-circle bk-img-60" alt="" />
+                                    </div>
+                                    <div class="bk-padding-top-10">
+                                        <i class="fa fa-circle text-success"></i> <small>李韶亮</small>
+                                    </div>
+                                </div>
+                                <div class="divider2"></div>                             
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="sidebar-footer">
+                    <ul class="sidebar-terms">
+                        <li><a href="#">团队</a></li>
+                        <li><a href="#">声明</a></li>
+                        <li><a href="#">帮助</a></li>
+                        <li><a href="#">关于</a></li>
+                    </ul>
+                    <div class="copyright text-center">
+                        <small>LSL_PRO <i class="fa fa-coffee"></i>作者:<a href="https://github.com/LSLCoding" title="LSL">李韶亮</a> </small>
+                    </div>
+                </div>
+            </div>
+            <div class="main ">
+                <div id="tabs" class="page-header">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="icon fa fa-home"></i>主页</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">                       
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <div class="panel bk-bg-white">
+                                <div class ="panel-heading">
+                                    <div class="col-md-6">
+                                        <h1>这是主页啊</h1>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1>这是主页啊</h1>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="usage">
+                <div class="title" style="text-align: center;">© 2016 - 至今 ©LSL</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="~/Assets/vendor/js/jquery-2.1.1.min.js"></script>
+    <script src="~/Assets/vendor/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="~/Assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Assets/plugins/bootstrap-tab/js/bootstrap.addtabs.js"></script>
+    <script src="~/Assets/js/CommonJs.js"></script>
+    <script src="~/Assets/plugins/seder-menu/sidebar-menu.js"></script>
+    <script src="~/Assets/js/pages/index.js"></script>
+</body>
+</html>

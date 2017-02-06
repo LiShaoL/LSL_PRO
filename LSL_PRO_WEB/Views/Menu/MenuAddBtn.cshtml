@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>分配按钮</title>
+    <link rel="shortcut icon" href="~/Assets/ico/favicon.ico" type="image/x-icon" />
+    <link href="~/Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/layer/skin/default/layer.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/layer/css/layui.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel bk-bg-white">
+                <div class="panel-heading">
+                    <h4><i class="fa fa-square"></i>分配按钮</h4>
+                </div>
+                <div class="panel-body">                
+                    <div class="col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h6><i class="fa fa-square"></i>分配按钮</h6>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row fontawesome-icon-list">
+                                    <form class="layui-form">
+                                        <div class="layui-form-item"></div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="divider2 "></div>
+                            <div id="getbtn" class="panel-body" style="text-align: center">
+                                <button class="btn btn-info" type="button" id="btnSave" onclick="LSL_menubtn.btnSave()"><i class="fa fa-save"></i>&nbsp;保存</button>
+                                <button class="btn btn-default" type="button" id="btnBack" onclick="LSL_menubtn.btnClose()"><i class="fa fa-reply"></i>&nbsp;关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Assets/vendor/js/jquery-2.1.1.min.js"></script>
+    <script src="~/Assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Assets/plugins/layer/layer.js"></script>
+    <script src="~/Assets/plugins/layer/layui.js"></script>
+    <script src="~/Assets/plugins/layer/form.js"></script>
+    <script src="~/Assets/js/CommonJs.js"></script>
+    <script src="~/Assets/js/pages/MenuBtn.js"></script>
+</body>
+</html>

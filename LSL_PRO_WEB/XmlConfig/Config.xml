@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  <!-- ================== 1：数据库连接相关配置 ================== -->
+  <!--数据库软件类型：Oracle,SQLServer,MySql-->
+  <add key="ComponentDbType" value="SQLServer" />
+  <!-- SqlServer连接字符串:Server=服务器地址;Database=库名;Uid=用户;Pwd=密码-->
+  <add key="SqlServer_LSL" value="Data Source=192.168.10.49;Initial Catalog=LSL_PRO;Persist Security Info=True;User ID=sa;Password=P@ssword" />
+  <!-- ================== 系统生成的配置 start================== -->
+  <add key="vs:EnableBrowserLink" value="false"/>
+  <add key="webpages:Version" value="3.0.0.0" />
+  <add key="webpages:Enabled" value="false" />
+  <add key="ClientValidationEnabled" value="true" />
+  <add key="UnobtrusiveJavaScriptEnabled" value="true" />
+</appSettings>

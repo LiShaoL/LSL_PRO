@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>添加按钮</title>
+    <link rel="shortcut icon" href="~/Assets/ico/favicon.ico" type="image/x-icon" />
+    <link href="~/Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/jquery-ui/css/jquery-ui.css" rel="stylesheet" />
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/layer/skin/default/layer.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel bk-bg-white">
+                <div class="panel-heading">
+                    <h3><i class="fa fa-square"></i>添加按钮</h3>
+                </div>
+                <div class="divider2 "></div>
+                <div class="panel-body">
+                    <div class="ibox-content">
+                        <form class="form-horizontal">
+                            <div class="form-group" hidden="hidden">
+                                <label class="col-sm-3 control-label"><label for="BtnID">按钮ID</label>：</label>
+                                <div class="col-sm-6">
+                                    <input class="form-control" id="BtnID" name="BtnID" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label"><label for="BtnName">按钮名称</label>：</label>
+                                <div class="col-sm-6">
+                                    <input class="form-control" id="BtnName" name="BtnName" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label"><label for="ImgName">图片名称</label>：</label>
+                                <div class="col-sm-6">
+                                    <input class="form-control" id="ImgName" name="ImgName" type="text" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label"><label for="Event">方法名称</label>：</label>
+                                <div class="col-sm-6">
+                                    <input class="form-control" id="Event" name="Event" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label"><label for="CSS">CSS名称</label>：</label>
+                                <div class="col-sm-6">
+                                    <input class="form-control" id="CSS" name="CSS" type="text" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-3 col-sm-8">
+                                    <button class="btn btn-info" type="button" id="btnSave" onclick="LSL_btnAdd.btnSave()"><i class="fa fa-save"></i>&nbsp;保存</button>
+                                    <button class="btn btn-default" type="button" id="btnBack" onclick="LSL_btnAdd.btnBack()"><i class="fa fa-reply"></i>&nbsp;返回</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Assets/vendor/js/jquery-2.1.1.min.js"></script>
+    <script src="~/Assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Assets/plugins/layer/layer.js"></script>
+    <script src="~/Assets/js/CommonJs.js"></script>
+    <script src="~/Assets/js/pages/buttonAdd.js"></script>
+</body>
+</html>

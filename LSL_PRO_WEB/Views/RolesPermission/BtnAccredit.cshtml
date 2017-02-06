@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>按钮授权</title>
+    <link rel="shortcut icon" href="~/Assets/ico/favicon.ico" type="image/x-icon" />
+    <link href="~/Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/layer/skin/default/layer.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/jstree/themes/default/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel bk-bg-white">
+                <div class="panel-heading">
+                    <h4><i class="fa fa-thumbs-o-up"></i>按钮授权</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h6><i class="fa fa-th-large"></i>菜单</h6>
+                            </div>
+                            <div class="panel-body" style="display: block;">
+                                <div id="Roletree"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h6><i class="fa fa-square"></i>按钮</h6>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row fontawesome-icon-list" id="forma">                                                                  
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider2 "></div>
+                <div class="panel-body" style="text-align:center">
+                    <button class="btn btn-info" type="button" id="btnSave" onclick="LSL_BtnAccredit.btnSave()"><i class="fa fa-save"></i>&nbsp;保存</button>
+                    <button class="btn btn-default" type="button" id="btnBack" onclick="LSL_BtnAccredit.btnClose()"><i class="fa fa-reply"></i>&nbsp;关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Assets/vendor/js/jquery-2.1.1.min.js"></script>
+    <script src="~/Assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Assets/plugins/jstree/jstree.js"></script>
+    <script src="~/Assets/plugins/layer/layer.js"></script>
+    <script src="~/Assets/js/CommonJs.js"></script>
+    <script src="~/Assets/js/pages/BtnAccredit.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>按钮管理</title>
+    <link rel="shortcut icon" href="~/Assets/ico/favicon.ico" type="image/x-icon" />
+    <link href="~/Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/jquery-ui/css/jquery-ui.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/jqGrid/css/jqGrid.bootstrap.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/jqGrid/css/ui.jqgrid.css" rel="stylesheet" />
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/layer/skin/default/layer.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel bk-bg-white">
+                <div class="panel-heading">
+                    <h3><i class="fa fa-square"></i>按钮管理</h3>
+                </div>
+                <div class="divider2 "></div>
+                <div id="getbtn" class="panel-body"></div>
+                <div class="panel-body">
+                    <div class="col-md-2" style="width:90px;">
+                        <select id="tiaojian" name="tiaojian" class="form-control" style="width: 90px;  ">
+                            <option value="">请选择</option>
+                            <option value="FullName">名 称</option>
+                        </select>
+                    </div>
+                    <div class="col-md-5">
+                        <input id="txtSearchKey" type="text" class="form-control" placeholder="搜索关键字">
+                    </div>
+                    <span class="input-group-btn">
+                        <button id="btnSearch" onclick="LSL_button.Search()" class="btn btn-success" style="background-color: #317ef3;" type="button"> <i class="fa fa-search"></i> 搜索</button>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <div class="jqGrid_wrapper">
+                        <table id="jqGridList"></table>
+                        <div id="jqGridPager"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Assets/vendor/js/jquery-2.1.1.min.js"></script>
+    <script src="~/Assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Assets/plugins/layer/layer.js"></script>
+    <script src="~/Assets/plugins/jqGrid/js/grid.locale-cn.js"></script>
+    <script src="~/Assets/plugins/jqGrid/js/jquery.jqGrid.src.js"></script>
+    <script src="~/Assets/js/CommonJs.js"></script>
+    <script src="~/Assets/js/pages/button.js"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LSL_PROModelStoreContainer" CdmEntityContainer="LSL_PRO_Entity">
+    <EntitySetMapping Name="LSL_PRO_Button">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_Button">
+        <MappingFragment StoreEntitySet="LSL_PRO_Button">
+          <ScalarProperty Name="ButtonId" ColumnName="ButtonId" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="Event" ColumnName="Event" />
+          <ScalarProperty Name="Control_ID" ColumnName="Control_ID" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Split" ColumnName="Split" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Enabled" ColumnName="Enabled" />
+          <ScalarProperty Name="SortCode" ColumnName="SortCode" />
+          <ScalarProperty Name="DeleteMark" ColumnName="DeleteMark" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="ModifyUserId" ColumnName="ModifyUserId" />
+          <ScalarProperty Name="ModifyUserName" ColumnName="ModifyUserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_DataRole">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_DataRole">
+        <MappingFragment StoreEntitySet="LSL_PRO_DataRole">
+          <ScalarProperty Name="DataRoleID" ColumnName="DataRoleID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="DataType" ColumnName="DataType" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreatUserID" ColumnName="CreatUserID" />
+          <ScalarProperty Name="CreatUserName" ColumnName="CreatUserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_LoginLog">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_LoginLog">
+        <MappingFragment StoreEntitySet="LSL_PRO_LoginLog">
+          <ScalarProperty Name="SysLoginLogId" ColumnName="SysLoginLogId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+          <ScalarProperty Name="IPAddressName" ColumnName="IPAddressName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_Logs">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_Logs">
+        <MappingFragment StoreEntitySet="LSL_PRO_Logs">
+          <ScalarProperty Name="SyslogsId" ColumnName="SyslogsId" />
+          <ScalarProperty Name="OperationType" ColumnName="OperationType" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+          <ScalarProperty Name="Object_ID" ColumnName="Object_ID" />
+          <ScalarProperty Name="OperationIp" ColumnName="OperationIp" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="OperationWhere" ColumnName="OperationWhere" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_Menu">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_Menu">
+        <MappingFragment StoreEntitySet="LSL_PRO_Menu">
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="NavigateUrl" ColumnName="NavigateUrl" />
+          <ScalarProperty Name="FormName" ColumnName="FormName" />
+          <ScalarProperty Name="Target" ColumnName="Target" />
+          <ScalarProperty Name="IsUnfold" ColumnName="IsUnfold" />
+          <ScalarProperty Name="AllowEdit" ColumnName="AllowEdit" />
+          <ScalarProperty Name="AllowDelete" ColumnName="AllowDelete" />
+          <ScalarProperty Name="Enabled" ColumnName="Enabled" />
+          <ScalarProperty Name="SortCode" ColumnName="SortCode" />
+          <ScalarProperty Name="DeleteMark" ColumnName="DeleteMark" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="ModifyUserId" ColumnName="ModifyUserId" />
+          <ScalarProperty Name="ModifyUserName" ColumnName="ModifyUserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_MenuButton">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_MenuButton">
+        <MappingFragment StoreEntitySet="LSL_PRO_MenuButton">
+          <ScalarProperty Name="SysMenuButtonId" ColumnName="SysMenuButtonId" />
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="ButtonId" ColumnName="ButtonId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+          <ScalarProperty Name="SortCode" ColumnName="SortCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_RoleMenu">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_RoleMenu">
+        <MappingFragment StoreEntitySet="LSL_PRO_RoleMenu">
+          <ScalarProperty Name="RoleMenuId" ColumnName="RoleMenuId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_RoleMenuButton">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_RoleMenuButton">
+        <MappingFragment StoreEntitySet="LSL_PRO_RoleMenuButton">
+          <ScalarProperty Name="RoleMenuButtonId" ColumnName="RoleMenuButtonId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="ButtonId" ColumnName="ButtonId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_Roles">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_Roles">
+        <MappingFragment StoreEntitySet="LSL_PRO_Roles">
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="OrganizationId" ColumnName="OrganizationId" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AllowEdit" ColumnName="AllowEdit" />
+          <ScalarProperty Name="AllowDelete" ColumnName="AllowDelete" />
+          <ScalarProperty Name="Enabled" ColumnName="Enabled" />
+          <ScalarProperty Name="SortCode" ColumnName="SortCode" />
+          <ScalarProperty Name="DeleteMark" ColumnName="DeleteMark" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="ModifyUserId" ColumnName="ModifyUserId" />
+          <ScalarProperty Name="ModifyUserName" ColumnName="ModifyUserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_User">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_User">
+        <MappingFragment StoreEntitySet="LSL_PRO_User">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Secretkey" ColumnName="Secretkey" />
+          <ScalarProperty Name="RealName" ColumnName="RealName" />
+          <ScalarProperty Name="Spell" ColumnName="Spell" />
+          <ScalarProperty Name="Alias" ColumnName="Alias" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="OICQ" ColumnName="OICQ" />
+          <ScalarProperty Name="DutyId" ColumnName="DutyId" />
+          <ScalarProperty Name="TitleId" ColumnName="TitleId" />
+          <ScalarProperty Name="OrganizationId" ColumnName="OrganizationId" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="WorkgroupId" ColumnName="WorkgroupId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SecurityLevel" ColumnName="SecurityLevel" />
+          <ScalarProperty Name="ChangePasswordDate" ColumnName="ChangePasswordDate" />
+          <ScalarProperty Name="OpenId" ColumnName="OpenId" />
+          <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+          <ScalarProperty Name="MACAddress" ColumnName="MACAddress" />
+          <ScalarProperty Name="LogOnCount" ColumnName="LogOnCount" />
+          <ScalarProperty Name="FirstVisit" ColumnName="FirstVisit" />
+          <ScalarProperty Name="PreviousVisit" ColumnName="PreviousVisit" />
+          <ScalarProperty Name="LastVisit" ColumnName="LastVisit" />
+          <ScalarProperty Name="Enabled" ColumnName="Enabled" />
+          <ScalarProperty Name="SortCode" ColumnName="SortCode" />
+          <ScalarProperty Name="DeleteMark" ColumnName="DeleteMark" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="ModifyUserId" ColumnName="ModifyUserId" />
+          <ScalarProperty Name="ModifyUserName" ColumnName="ModifyUserName" />
+          <ScalarProperty Name="SID" ColumnName="SID" />
+          <ScalarProperty Name="IsFengKong" ColumnName="IsFengKong" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="IsLogin" ColumnName="IsLogin" />
+          <ScalarProperty Name="IMAPServer" ColumnName="IMAPServer" />
+          <ScalarProperty Name="SMTPServer" ColumnName="SMTPServer" />
+          <ScalarProperty Name="EmailUserName" ColumnName="EmailUserName" />
+          <ScalarProperty Name="EmailUserPassword" ColumnName="EmailUserPassword" />
+          <ScalarProperty Name="SMTPPort" ColumnName="SMTPPort" />
+          <ScalarProperty Name="IMAPPort" ColumnName="IMAPPort" />
+          <ScalarProperty Name="IsSSL" ColumnName="IsSSL" />
+          <ScalarProperty Name="UserTypeGrade" ColumnName="UserTypeGrade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_UserMenu">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_UserMenu">
+        <MappingFragment StoreEntitySet="LSL_PRO_UserMenu">
+          <ScalarProperty Name="UserMenuId" ColumnName="UserMenuId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_UserMenuButton">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_UserMenuButton">
+        <MappingFragment StoreEntitySet="LSL_PRO_UserMenuButton">
+          <ScalarProperty Name="UserMenuButtonId" ColumnName="UserMenuButtonId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="ButtonId" ColumnName="ButtonId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LSL_PRO_UserRole">
+      <EntityTypeMapping TypeName="LSL_PROModel.LSL_PRO_UserRole">
+        <MappingFragment StoreEntitySet="LSL_PRO_UserRole">
+          <ScalarProperty Name="UserRoleId" ColumnName="UserRoleId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

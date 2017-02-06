@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LSL_PROModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="LSL_PRO_Button">
+    <Key>
+      <PropertyRef Name="ButtonId" />
+    </Key>
+    <Property Name="ButtonId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Img" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Event" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Control_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Split" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Enabled" Type="Int32" />
+    <Property Name="SortCode" Type="Int32" />
+    <Property Name="DeleteMark" Type="Int32" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifyUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_DataRole">
+    <Key>
+      <PropertyRef Name="DataRoleID" />
+    </Key>
+    <Property Name="DataRoleID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RoleID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DataType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatUserID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_LoginLog">
+    <Key>
+      <PropertyRef Name="SysLoginLogId" />
+    </Key>
+    <Property Name="SysLoginLogId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="Account" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IPAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IPAddressName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_Logs">
+    <Key>
+      <PropertyRef Name="SyslogsId" />
+    </Key>
+    <Property Name="SyslogsId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OperationType" Type="Int32" />
+    <Property Name="TableName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BusinessName" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Object_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OperationIp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Result" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="OperationWhere" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Name="Remark" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_Menu">
+    <Key>
+      <PropertyRef Name="MenuId" />
+    </Key>
+    <Property Name="MenuId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ParentId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Img" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NavigateUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="FormName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Target" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsUnfold" Type="Int32" />
+    <Property Name="AllowEdit" Type="Int32" />
+    <Property Name="AllowDelete" Type="Int32" />
+    <Property Name="Enabled" Type="Int32" />
+    <Property Name="SortCode" Type="Int32" />
+    <Property Name="DeleteMark" Type="Int32" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifyUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_MenuButton">
+    <Key>
+      <PropertyRef Name="SysMenuButtonId" />
+    </Key>
+    <Property Name="SysMenuButtonId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MenuId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ButtonId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SortCode" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_RoleMenu">
+    <Key>
+      <PropertyRef Name="RoleMenuId" />
+    </Key>
+    <Property Name="RoleMenuId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RoleId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MenuId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_RoleMenuButton">
+    <Key>
+      <PropertyRef Name="RoleMenuButtonId" />
+    </Key>
+    <Property Name="RoleMenuButtonId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RoleId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MenuId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ButtonId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OrganizationId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ParentId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="AllowEdit" Type="Int32" />
+    <Property Name="AllowDelete" Type="Int32" />
+    <Property Name="Enabled" Type="Int32" />
+    <Property Name="SortCode" Type="Int32" />
+    <Property Name="DeleteMark" Type="Int32" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifyUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmployeeId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Account" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Secretkey" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RealName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Spell" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Alias" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RoleId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OICQ" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DutyId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TitleId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OrganizationId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DepartmentId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="WorkgroupId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="SecurityLevel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ChangePasswordDate" Type="DateTime" Precision="3" />
+    <Property Name="OpenId" Type="Int32" />
+    <Property Name="IPAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MACAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LogOnCount" Type="Int32" />
+    <Property Name="FirstVisit" Type="DateTime" Precision="3" />
+    <Property Name="PreviousVisit" Type="DateTime" Precision="3" />
+    <Property Name="LastVisit" Type="DateTime" Precision="3" />
+    <Property Name="Enabled" Type="Int32" />
+    <Property Name="SortCode" Type="Int32" />
+    <Property Name="DeleteMark" Type="Int32" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifyUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsFengKong" Type="Int32" />
+    <Property Name="UserType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsLogin" Type="Int32" />
+    <Property Name="IMAPServer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SMTPServer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EmailUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EmailUserPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SMTPPort" Type="Int32" />
+    <Property Name="IMAPPort" Type="Int32" />
+    <Property Name="IsSSL" Type="Int32" />
+    <Property Name="UserTypeGrade" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_UserMenu">
+    <Key>
+      <PropertyRef Name="UserMenuId" />
+    </Key>
+    <Property Name="UserMenuId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MenuId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_UserMenuButton">
+    <Key>
+      <PropertyRef Name="UserMenuButtonId" />
+    </Key>
+    <Property Name="UserMenuButtonId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MenuId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ButtonId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LSL_PRO_UserRole">
+    <Key>
+      <PropertyRef Name="UserRoleId" />
+    </Key>
+    <Property Name="UserRoleId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RoleId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="LSL_PRO_Entity" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="LSL_PRO_Button" EntityType="Self.LSL_PRO_Button" />
+    <EntitySet Name="LSL_PRO_DataRole" EntityType="Self.LSL_PRO_DataRole" />
+    <EntitySet Name="LSL_PRO_LoginLog" EntityType="Self.LSL_PRO_LoginLog" />
+    <EntitySet Name="LSL_PRO_Logs" EntityType="Self.LSL_PRO_Logs" />
+    <EntitySet Name="LSL_PRO_Menu" EntityType="Self.LSL_PRO_Menu" />
+    <EntitySet Name="LSL_PRO_MenuButton" EntityType="Self.LSL_PRO_MenuButton" />
+    <EntitySet Name="LSL_PRO_RoleMenu" EntityType="Self.LSL_PRO_RoleMenu" />
+    <EntitySet Name="LSL_PRO_RoleMenuButton" EntityType="Self.LSL_PRO_RoleMenuButton" />
+    <EntitySet Name="LSL_PRO_Roles" EntityType="Self.LSL_PRO_Roles" />
+    <EntitySet Name="LSL_PRO_User" EntityType="Self.LSL_PRO_User" />
+    <EntitySet Name="LSL_PRO_UserMenu" EntityType="Self.LSL_PRO_UserMenu" />
+    <EntitySet Name="LSL_PRO_UserMenuButton" EntityType="Self.LSL_PRO_UserMenuButton" />
+    <EntitySet Name="LSL_PRO_UserRole" EntityType="Self.LSL_PRO_UserRole" />
+  </EntityContainer>
+</Schema>
