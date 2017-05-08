@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F374A38-D754-445F-86AC-FAB25DDAC3E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LSL_PRO.Utilities</RootNamespace>
+    <AssemblyName>LSL_PRO.Utilities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Words">
+      <HintPath>..\DIDIWebAPI\Lib\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\DIDIWebAPI\Lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\DIDIWebAPI\Lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SessionHelper\CookieHelper.cs" />
+    <Compile Include="SessionHelper\RequestSession.cs" />
+    <Compile Include="SessionHelper\SessionUser.cs" />
+    <Compile Include="DotNetCode\CacheHelper.cs" />
+    <Compile Include="DotNetCode\ClassHelper.cs" />
+    <Compile Include="DotNetCode\CommonHelper.cs" />
+    <Compile Include="DotNetCode\ConvertHelper.cs" />
+    <Compile Include="DotNetCode\DateTimeHelper.cs" />
+    <Compile Include="DotNetCode\LogHelper.cs" />
+    <Compile Include="DotNetCode\PinyinHelper.cs" />
+    <Compile Include="DotNetCode\RequestHelper.cs" />
+    <Compile Include="DotNetCode\RMBHelper.cs" />
+    <Compile Include="DotNetCode\SqlFilterHelper.cs" />
+    <Compile Include="DotNetData\DataTableHelper.cs" />
+    <Compile Include="DotNetData\HashtableHelper.cs" />
+    <Compile Include="DotNetData\IListHelper.cs" />
+    <Compile Include="DotNetData\XMLHelper.cs" />
+    <Compile Include="FileHelper\DirFileHelper.cs" />
+    <Compile Include="FileHelper\FileDownHelper.cs" />
+    <Compile Include="FileHelper\FileHelper.cs" />
+    <Compile Include="FileHelper\FTPHelper.cs" />
+    <Compile Include="FileHelper\GZipHelper.cs" />
+    <Compile Include="FileHelper\UploadHelper.cs" />
+    <Compile Include="JsonHelper\ConvertJson.cs" />
+    <Compile Include="JsonHelper\JsonHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MessageHelper\MessageHelper.cs" />
+    <Compile Include="图片处理\ImageClass.cs" />
+    <Compile Include="图片处理\ImageDown.cs" />
+    <Compile Include="图片处理\ImageUpload.cs" />
+    <Compile Include="导出Excel_Word\ExcelHelper.cs" />
+    <Compile Include="导出Excel_Word\WordHelper.cs" />
+    <Compile Include="邮件\SMTPManager.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\LSL_PRO.DataAccess\LSL_PRO.DataAccess.csproj">
+      <Project>{5e46ee60-8514-4048-bea7-6a9e32430978}</Project>
+      <Name>LSL_PRO.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSL_PRO.Kernel\LSL_PRO.Kernel.csproj">
+      <Project>{4c320eae-aaed-40e1-8e97-5b178bb87280}</Project>
+      <Name>LSL_PRO.Kernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

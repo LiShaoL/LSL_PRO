@@ -1,0 +1,10 @@
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\bin\Debug\DotNet.Kernel.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\bin\Debug\DotNet.Kernel.pdb
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\bin\Debug\Microsoft.Practices.Unity.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\bin\Debug\MySql.Data.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\bin\Debug\Oracle.DataAccess.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\obj\Debug\DotNet.Kernel.csprojResolveAssemblyReference.cache
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\obj\Debug\DotNet.Kernel.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.Kernel\obj\Debug\DotNet.Kernel.pdb

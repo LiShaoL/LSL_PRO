@@ -1,0 +1,12 @@
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\bin\Debug\DotNet.DataAccess.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\bin\Debug\DotNet.DataAccess.pdb
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\bin\Debug\DotNet.Kernel.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\bin\Debug\Microsoft.Practices.Unity.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\bin\Debug\MySql.Data.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\bin\Debug\Oracle.DataAccess.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\bin\Debug\DotNet.Kernel.pdb
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\obj\Debug\DotNet.DataAccess.csprojResolveAssemblyReference.cache
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\obj\Debug\DotNet.DataAccess.dll
+E:\lsl_Work\Jjishitong\JSTProject\DotNet.DataAccess\obj\Debug\DotNet.DataAccess.pdb

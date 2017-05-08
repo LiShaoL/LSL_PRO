@@ -1,0 +1,14 @@
+E:\lsl_Work\LSL_PRO\LSL_PRO.Kernel\bin\Debug\LSL_PRO.Kernel.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO.Kernel\bin\Debug\LSL_PRO.Kernel.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO.Kernel\bin\Debug\oracle.dataaccess.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO.Kernel\obj\Debug\LSL_PRO.Kernel.dll
+E:\lsl_Work\LSL_PRO\LSL_PRO.Kernel\obj\Debug\LSL_PRO.Kernel.pdb
+E:\lsl_Work\LSL_PRO\LSL_PRO.Kernel\obj\Debug\LSL_PRO.Kernel.csprojResolveAssemblyReference.cache
+G:\百度云下载\lsl项目\LSL_PRO\LSL_PRO.Kernel\bin\Debug\LSL_PRO.Kernel.dll
+G:\百度云下载\lsl项目\LSL_PRO\LSL_PRO.Kernel\bin\Debug\LSL_PRO.Kernel.pdb
+G:\百度云下载\lsl项目\LSL_PRO\LSL_PRO.Kernel\bin\Debug\MySql.Data.dll
+G:\百度云下载\lsl项目\LSL_PRO\LSL_PRO.Kernel\bin\Debug\oracle.dataaccess.dll
+G:\百度云下载\lsl项目\LSL_PRO\LSL_PRO.Kernel\bin\Debug\MySql.Data.xml
+G:\百度云下载\lsl项目\LSL_PRO\LSL_PRO.Kernel\obj\Debug\LSL_PRO.Kernel.csprojResolveAssemblyReference.cache
+G:\百度云下载\lsl项目\LSL_PRO\LSL_PRO.Kernel\obj\Debug\LSL_PRO.Kernel.dll
+G:\百度云下载\lsl项目\LSL_PRO\LSL_PRO.Kernel\obj\Debug\LSL_PRO.Kernel.pdb
