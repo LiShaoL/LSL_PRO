@@ -4,7 +4,7 @@ $(function () {
     $.sidebarMenu($('.sidebar-menu'));
     $("#tabs").addtabs({
         contextmenu: true,
-        iframeHeight:"825px"
+        iframeHeight: "825px"
     });
 
 });

@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSL_PRO_Model", "LSL_PRO_Mo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KernelCode", "KernelCode", "{F3C5698A-2C53-4D85-AF4B-F8D5A4CB4806}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Img", "Img", "{16E34141-8C97-4618-97B6-84A6EDAE4D57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
